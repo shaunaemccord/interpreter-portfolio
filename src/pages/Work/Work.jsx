@@ -32,7 +32,7 @@ const ImageCard = ({ image, name, description, video, stuff, link, pdfUrl }) => 
 const Projects = () => {
     return (
       <div className="cards">
-        <div className="bg-dark text-white py-4 samples" >
+        <div className="text-black py-4 samples" >
           <Container>
             <Row className="justify-content-center">
               <h1 className="text-center " >Samples of my work!</h1>

@@ -4,7 +4,7 @@ import myGIF from "./images/asl.gif";
 const Home = () => {
   return (
   <div className="d-flex justify-content-center">
-  <Image src={image} alt="of tyler" className="img-fluid me" style={{width: "20%", borderRadius: "50%", margin: "50px", border: "5px solid black"}} />
+  <Image src={image} alt="of shauna" className="img-fluid me" style={{width: "20%", borderRadius: "50%", margin: "50px", border: "5px solid black"}} />
   <Container className="welcome">
     <Row>
       <Col>

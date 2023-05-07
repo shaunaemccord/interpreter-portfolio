@@ -6,7 +6,7 @@ import { Card, ListGroup } from 'react-bootstrap';
 const Cpc = () => {
   return (
     <Card  className="cpc" style={{ textAlign: "center", backgroundColor: "#BFC0C0" }}>
-      <Card.Header style={{ color: "black", fontSize: "24px"  }}>Code of Professional Conduct</Card.Header>
+      <Card.Header style={{ color: "black", fontSize: "48px"  }}>Code of Professional Conduct</Card.Header>
       <Card.Body style={{ color: "black", textAlign: "left" }}>
         <Card.Text style={{ marginBottom: "40px" }}>
           The CPC, or Code of Professional Conduct, is a set of ethical principles and guidelines that interpreters should follow to ensure they provide quality and impartial interpretation services. The code is organized into seven tenets, each of which serves as a guiding principle for interpreters:
@@ -48,7 +48,7 @@ const Cpc = () => {
             This tenet requires interpreters to engage in ongoing professional development to enhance their skills and knowledge in the field, and to stay up-to-date with the latest trends and best practices. This includes attending relevant trainings and workshops, networking with colleagues, and participating in professional organizations.
           </ListGroup.Item>
         </ListGroup>
-        <Card.Text>
+        <Card.Text style={{ color: "black", marginBottom: "100px", padding: '20px'}}>
           In summary, the CPC provides a set of ethical standards for interpreters to follow in order to ensure that they provide quality interpretation services that are impartial, confidential, and respectful of consumers' needs and diversity.
         </Card.Text>
       </Card.Body>

@@ -4,33 +4,7 @@ import { Card, Button, Container, Row, Col } from "react-bootstrap";
 import { useState } from "react"
 
 
-// const ImageCard = ({ image, name, description, stuff2, stuff, link, pdfUrl, stuff3,stuff4 }) => {
-//   return (
-//     <Card style={{ maxWidth: "100%", border: "5px solid black" }} >
-//       <a href={link} target="_blank">
-//         <Card.Img className="zoom" variant="top" src={image} />
-//       </a>
-//       <Card.Body className="cardBody">
-//         <Card.Title className="cardTitle">{name}</Card.Title>
-//         <Card.Text className="cardText">{description}</Card.Text>
-//       </Card.Body>
-//       {link && (
-//         <Button href={link} target="_blank" variant="secondary">
-//           Live Demo
-//         </Button>
-//       )}
-//       {pdfUrl && (
-//         <Button href={pdfUrl} download="download.pdf" variant="secondary">
-//           Download PDF
-//         </Button>
-//       )}
-//       <p className="reflect" style={{padding: "20px"}}>{stuff}</p>
-//       <p className="reflect" style={{padding: "20px"}}>{stuff2}</p>
-//       <p className="reflect" style={{padding: "20px"}}>{stuff3}</p>
-//       <p className="reflect" style={{padding: "20px"}}>{stuff4}</p>
-//     </Card>
-//   );
-// };
+
 const ImageCard = ({ image, name, description, stuff2, stuff, link, pdfUrl, stuff3,stuff4, stuff5, h2, h3, h4 }) => {
   const [showText, setShowText] = useState(false);
 
@@ -45,12 +19,12 @@ const ImageCard = ({ image, name, description, stuff2, stuff, link, pdfUrl, stuf
       
       {link && (
         <Button className="custom-button"  href={link} target="_blank" variant="primary">
-          Click to see my video!
+          Click to see my work!
         </Button>
       )}
       {pdfUrl && (
         <Button className="custom-button"  href={pdfUrl} download="download.pdf" variant="primary">
-          Download Written Translation
+          Download PDF
         </Button>
       )}
       <Button className="custom-button"  variant="primary" onClick={() => setShowText(!showText)}>
@@ -58,15 +32,14 @@ const ImageCard = ({ image, name, description, stuff2, stuff, link, pdfUrl, stuf
       </Button>
       {showText && (
         <>
-          <h2 style={{fontSize: '20px'}}>{h2}</h2>
-          
-          <p className="reflect" style={{padding: "20px"}}>{stuff}</p>
-          <p className="reflect" style={{padding: "20px"}}>{stuff2}</p>
-          <p className="reflect" style={{padding: "20px"}}>{stuff3}</p>
-          <h3 style={{fontSize: '20px'}}>{h3}</h3>
-          <p className="reflect" style={{padding: "20px"}}>{stuff4}</p>
-          <h4 style={{fontSize: '20px'}}>{h4}</h4>
-          <p className="reflect" style={{padding: "20px"}}>{stuff5}</p>
+          {h2 && <h2 style={{fontSize: '20px'}}>{h2}</h2>}
+          {stuff && <p className="reflect" style={{padding: "20px"}}>{stuff}</p>}
+          {stuff2 && <p className="reflect" style={{padding: "20px"}}>{stuff2}</p>}
+          {stuff3 && <p className="reflect" style={{padding: "20px"}}>{stuff3}</p>}
+          {h3 && <h3 style={{fontSize: '20px'}}>{h3}</h3>}
+          {stuff4 && <p className="reflect" style={{padding: "20px"}}>{stuff4}</p>}
+          {h4 && <h4 style={{fontSize: '20px'}}>{h4}</h4>}
+          {stuff5 && <p className="reflect" style={{padding: "20px"}}>{stuff5}</p>}
         </>
       )}
       </Card.Body>

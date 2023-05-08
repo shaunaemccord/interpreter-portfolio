@@ -4,13 +4,11 @@ const videos = [
         name: "Subject Matter Presentation 2022",
         link: "https://docs.google.com/presentation/d/1BwCUljeapUOKALZYktWB99WXRpYoxxHu/edit#slide=id.p1",
         description: "Subject Matter Presentation 2022",
-        stuff: `In Spring 2023 semester, my subject matter expert presentation on art painting featured an instructional lesson on how to paint a starry night scene. These presentations for Spring 2023 included roleplaying for the class. Two students took on the role of team interpreters, and three other students had headphones on with white noise to only rely on the interpretation. These unique roleplaying experience features for these presentations added some new dynamic challenges.
+        stuff: `In Fall 2022 semester, I presented a subject matter expert presentation on art painting. It had been well over ten years since I was placed in a similar experience as a speaker to an audience. Though, art painting proved to be an excellent subject matter to present because of my previous background in studying art painting.
         `,
-        stuff2: `I reflected on the knowledge that I gained from the previous presentation while planning out the details and execution for a live instructional painting lesson. I had to pay close attention to how long each section of the painting would take and I wanted to improve upon my engagement with the audience. I simplified the length of written text that I needed to present this time around. The only text that I required for the presentation I had featured on my PowerPoint and on one small piece of paper.
+        stuff2: `Despite my comfort in the subject matter, I still felt very nervous to be the presenter for an audience of new classmates. I hid my face in my papers at times during this presentation and I spoke way too fast. My typed document for this presentation was over twelve pages long. Which was way too long for this presentation.
         `,
-        stuff3: `I set a goal to challenge myself further with this presentation by selecting Vincent van Gogh’s The Starry Night for the painting I would depict with only classifiers and colors in American Sign Language. This painting was much more difficult to render, and I felt I was successful in my execution of a depiction for it.
-        `,
-        stuff4: `I felt more confident in this presentation and in teaching participants how to paint a starry night scene. I even remembered to breathe more during my presentation, and I reminded myself to be mindful not to speak too fast. Each participant was able to paint a starry night scene and keep their painting as a souvenir. 
+        stuff3: `I learned more about depiction in this assignment and I appreciated the challenges I faced in creating a depiction of a painting with only classifiers and colors. The key terms list, definitions, synonyms, idioms, and quiz questions that I used for this assignment were also valuable in planning out a foundation for the following subject matter expert presentation. 
         `
     },
     {
@@ -18,11 +16,13 @@ const videos = [
         name: "Subject Matter Presentation 2023",
         link: "https://docs.google.com/presentation/d/1ruEIsDjKAn5iOBB1ke9W9v6E5qNOGCn8/edit#slide=id.p1",
         description: "Subject Matter Presentation 2023",
-        stuff: `In Fall 2022 semester, I presented a subject matter expert presentation on art painting. It had been well over ten years since I was placed in a similar experience as a speaker to an audience. Though, art painting proved to be an excellent subject matter to present because of my previous background in studying art painting.
+        stuff: `In Spring 2023 semester, my subject matter expert presentation on art painting featured an instructional lesson on how to paint a starry night scene. These presentations for Spring 2023 included roleplaying for the class. Two students took on the role of team interpreters, and three other students had headphones on with white noise to only rely on the interpretation. These unique roleplaying experience features for these presentations added some new dynamic challenges.
         `,
-        stuff2: `Despite my comfort in the subject matter, I still felt very nervous to be the presenter for an audience of new classmates. I hid my face in my papers at times during this presentation and I spoke way too fast. My typed document for this presentation was over twelve pages long. Which was way too long for this presentation.
+        stuff2: `I reflected on the knowledge that I gained from the previous presentation while planning out the details and execution for a live instructional painting lesson. I had to pay close attention to how long each section of the painting would take and I wanted to improve upon my engagement with the audience. I simplified the length of written text that I needed to present this time around. The only text that I required for the presentation I had featured on my PowerPoint and on one small piece of paper.
         `,
-        stuff3: `I learned more about depiction in this assignment and I appreciated the challenges I faced in creating a depiction of a painting with only classifiers and colors. The key terms list, definitions, synonyms, idioms, and quiz questions that I used for this assignment were also valuable in planning out a foundation for the following subject matter expert presentation. 
+        stuff3: `I set a goal to challenge myself further with this presentation by selecting Vincent van Gogh’s The Starry Night for the painting I would depict with only classifiers and colors in American Sign Language. This painting was much more difficult to render, and I felt I was successful in my execution of a depiction for it.
+        `,
+        stuff4: `I felt more confident in this presentation and in teaching participants how to paint a starry night scene. I even remembered to breathe more during my presentation, and I reminded myself to be mindful not to speak too fast. Each participant was able to paint a starry night scene and keep their painting as a souvenir. 
         `
     },
 
@@ -90,12 +90,30 @@ const videos = [
         pdfUrl: null
     },
     {
+        image: "/interpreter-portfolio/images/teaming-rotate-2023.png",
+        name: "Team Interpreting",
+        link: null,
+        description: "Team Interpreting - Rotate Model - Spring 2023",
+        stuff: `Please click the download button for my work on this`,
+        pdfUrl: "/interpreter-portfolio/pdf/teaming-rotate-2023.pdf"
+    },
+    {
         image: "/interpreter-portfolio/images/team-2023.png",
         name: "Team Interpreting",
         link: "https://www.youtube.com/watch?v=HCxTaI1N-dw",
         description: "Team Interpreting - Remain Model - Spring 2023",
-        stuff: "talk about it here",
+        stuff: `In reflecting on this experience in using the remain model for this team interpreting assignment, I felt there was an improvement in comparison to using the rotate model. My team interpreter and I took turns interpreting the presenter while we remained actively involved for the duration of the interpreting process. When the interactive restaurant activity started, we then split the roles of who interpreted for the presenter and the participants. I predominantly interpreted the presenter’s role during this interactive activity. My team interpreter voiced the messages from the Deaf clients and signed the messages from the hearing clients participating in the activity. I felt there were moments in this interpretation that were rendered accurately. There was engagement present in our team interpreting using the remain model. My depiction of guacamole as “green, scoop- classifier,” was received well by participants.
+        `,
+        stuff2: `I could improve upon how I handle my composure when I am overwhelmed and stressed in the interpretation. I should have asked in the third person as the interpreter for more time to catch up and clarify the message during many parts of this presentation and the interactive activity. My team interpreter and I had moments where we did not pay attention to how we were both overlapping our signing. My American Sign Language vocabulary and fingerspelling were not at a matching skill level for the content of this team interpreting assignment.
+        `,
         pdfUrl: null
+    },
+    {
+        image: "/interpreter-portfolio/images/fall-internship-2022.png",
+        name: "Fall 2022 Internship",
+        description: "Scenarios from Fall semester internship 2022",
+        stuff: "Please click the download button for my work on this",
+        pdfUrl: "/interpreter-portfolio/pdf/fall-internship-2022.pdf"
     },
     {
         image: "/interpreter-portfolio/images/ispeakjesus.png",

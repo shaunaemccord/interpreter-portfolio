@@ -9,48 +9,51 @@ const Cpc = () => {
       <Card.Header style={{ color: "black", fontSize: "48px"  }}>Code of Professional Conduct</Card.Header>
       <Card.Body style={{ color: "black", textAlign: "left" }}>
         <Card.Text style={{ marginBottom: "40px" }}>
-          The CPC, or Code of Professional Conduct, is a set of ethical principles and guidelines that interpreters should follow to ensure they provide quality and impartial interpretation services. The code is organized into seven tenets, each of which serves as a guiding principle for interpreters:
+        The Code of Professional Conduct, CPC is a set of ethical principles for interpreters to adhere to. The CPC’s seven tenets serve as guiding principles for interpreters to follow to provide ethical and professional conduct. 
+
         </Card.Text >
+        <p>Below each CPC tenet is a summary of my understanding and application. 
+</p>
         <ListGroup>
           <ListGroup.Item style={{ color: "black", marginBottom: "20px", backgroundColor: "#BFC0C0", border: "5px solid black", padding: "20px" }}>
-            <strong>Tenet 1: Accuracy and Completeness</strong>
+            <strong>Tenet 1. Interpreters adhere to standards of confidential communication.</strong>
             <br />
-            This tenet requires interpreters to ensure that they provide a complete and accurate interpretation of the message, without adding, omitting, or changing any information.
+            This tenet requires interpreters to maintain the confidentiality of all information received during any time of the assignment.
           </ListGroup.Item>
           <ListGroup.Item style={{ color: "black", marginBottom: "20px", backgroundColor: "#BFC0C0", border: "5px solid black", padding: "20px" }}>
-            <strong>Tenet 2: Confidentiality</strong>
+            <strong>Tenet 2. Interpreters possess the professional skills and knowledge required for the specific interpreting situation.</strong>
             <br />
-            Interpreters are required to maintain the confidentiality of all information that they come across while performing their duties. This means that they should not share any personal or sensitive information with third parties without proper authorization.
+            The interpreter accepting the assignment uses their discretion as to whether their interpreting skills are an appropriate match for the requested interpreting assignment. The interpreter must also conduct themselves in a professional manner.
+
           </ListGroup.Item>
           <ListGroup.Item style={{ color: "black", marginBottom: "20px", backgroundColor: "#BFC0C0", border: "5px solid black", padding: "20px" }}>
-            <strong>Tenet 3: Impartiality and Avoidance of Conflict of Interest</strong>
+            <strong>Tenet 3. Interpreters conduct themselves in a manner appropriate to the specific interpreting situation.</strong>
             <br />
-            This tenet requires interpreters to remain neutral and impartial during the interpretation process. They should avoid any personal biases or conflicts of interest that could interfere with their ability to provide an accurate interpretation.
+            Interpreters must avoid any conflicts of interest. They must also conduct themselves appropriately regarding appearance and refrain from the use of any mind-altering substances before or during rendering interpreting services.
           </ListGroup.Item>
           <ListGroup.Item style={{ color: "black", marginBottom: "20px", backgroundColor: "#BFC0C0", border: "5px solid black", padding: "20px" }}>
-            <strong>Tenet 4: Professionalism</strong>
+            <strong>Tenet 4. Interpreters demonstrate respect for consumers.</strong>
             <br />
-            Interpreters should conduct themselves in a professional manner at all times, by adhering to the highest standards of ethical behavior, and by maintaining a positive and respectful attitude towards all parties involved in the interpretation.
+            Interpreters show respect for consumers by honoring the consumer’s preferences for the assignment in relation to interpreting dynamics.
           </ListGroup.Item>
           <ListGroup.Item style={{ color: "black", backgroundColor: "#BFC0C0", border: "5px solid black", padding: "20px" }}>
-            <strong>Tenet 5: Respect for Consumers</strong>
+            <strong>Tenet 5. Interpreters demonstrate respect for colleagues, interns, and students of the profession.</strong>
             <br />
-            This tenet requires interpreters to respect the autonomy and diversity of the consumers they serve. They should communicate in a way that is appropriate for the consumers' culture, language, and communication needs.
+            Respect for colleagues is demonstrated by interpreters through working cooperatively in collaboration with colleagues. Interpreters should maintain courtesy toward colleagues, interns, and student interpreters.
           </ListGroup.Item>
           <ListGroup.Item style={{ color: "black", marginBottom: "20px", backgroundColor: "#BFC0C0", border: "5px solid black", padding: "20px" }}>
-            <strong>Tenet 6: Role Boundaries</strong>
+            <strong>Tenet 6. Interpreters maintain ethical business practices.</strong>
             <br />
-            Interpreters should adhere to their professional role and responsibilities, and not exceed the scope of their expertise or offer advice, opinions, or personal beliefs during the interpretation.
+            This tenet requires that interpreters conduct their business in a professional and ethical manner regarding the accurate representation of their qualifications. Interpreters must also charge appropriate and reasonable fees for their interpreting services.
           </ListGroup.Item>
           <ListGroup.Item style={{ color: "black", marginBottom: "20px", backgroundColor: "#BFC0C0", border: "5px solid black", padding: "20px" }}>
-            <strong>Tenet 7: Professional Development</strong>
+            <strong>Tenet 7. Interpreters engage in professional development.</strong>
             <br />
-            This tenet requires interpreters to engage in ongoing professional development to enhance their skills and knowledge in the field, and to stay up-to-date with the latest trends and best practices. This includes attending relevant trainings and workshops, networking with colleagues, and participating in professional organizations.
+            Professional development is expected and required for interpreters. Interpreters must maintain and improve their interpreting skills through continuing their professional development which may be accomplished by pursuing more formal education, attending conferences and workshops, and working with a mentor. Interpreters must be informed and stay up to date on laws that affect interpreting in their state.
+
           </ListGroup.Item>
         </ListGroup>
-        <Card.Text style={{ color: "black", marginBottom: "100px", padding: '20px'}}>
-          In summary, the CPC provides a set of ethical standards for interpreters to follow in order to ensure that they provide quality interpretation services that are impartial, confidential, and respectful of consumers' needs and diversity.
-        </Card.Text>
+   
       </Card.Body>
     </Card>
   );
